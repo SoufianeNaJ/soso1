@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #000000bb;
+    margin-bottom: 10px;
+}
+header ul{
+    display: flex;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header ul li{
+    list-style: none;
+    padding: 20px;
+}
+header ul li:hover{
+    background-color: #000000d3;
+}
+header ul li.logo{
+    background: green;
+}
+main{
+    display: flex;
+    margin: 20px 10px;
+}
+main .side-par{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+main .side-par #btn{
+    background: rgba(0, 37, 250, 0.884);
+    color: #fff;
+}
+main .side-par a{
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(128, 128, 128, 0.185);
+    width: 300px;
+    padding: 10px 5px;
+    margin: 7px;
+    font-size: 20px;
+}
+main .side-par a:hover{
+    background: #000000d3;
+    color: #fff;
+}
+main .title h2{
+    background: rgba(0, 37, 250, 0.884);
+    color: #fff;
+    text-align: center;
+    padding: 45px 0;
+    font-size: 40px;
+}
+main .title{
+    margin: 10px 20px;
+}
+main .title h4{
+    margin: 40px 0;
+    font-size: 40px;
+}
+main .title p{
+    padding: 17px 0;
+    line-height: 1.5;
+}
+footer{
+    background: #000000d3;
+    padding: 20px;
+    color: #fff;
+}
+@media (max-width:900px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main .side-par{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    main .side-par a{
+        width: 280px;
+    }
+}
